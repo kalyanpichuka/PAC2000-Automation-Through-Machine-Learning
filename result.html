@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+	<head>
+		<link href="static/css/bootstrap.min.css" rel="stylesheet">
+		<style>
+			h3 {
+					text-align: left;
+					font-weight: normal;
+					color: #2E86C1;
+				}
+			body {
+					padding-top: 40px;
+					padding-bottom: 40px;
+					background-color: #FDFEFE;
+				}
+			.button {
+					background-color: #2E86C1;
+					border: none;	
+					color: white;
+					padding: 10px 20px;
+					text-align: center;
+					text-decoration: none;
+					display: inline-block;
+					font-size: 16px;
+					margin: 4px 2px;
+					cursor: pointer;
+				}
+			h1 {
+					text-align: left;
+					text-transform: uppercase;
+					color: #2E86C1;
+				}
+			
+		</style>
+	</head>
+   <body>
+		<h1>PAC2000-Automation-Through-Machine-Learning</h1>
+		</br>
+		</br>
+	
+		<h3>Resolution Predicted : {{ resolution }}</h3>
+		<form class="dataform"  role="form"  action = "http://localhost:5000/">
+			<p><input class="button" type = "submit" value = "back" /></p>
+        </form>
+   </body>
+</html>

@@ -1,0 +1,281 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>PAC2000-Automation-Through-Machine-Learning</title>
+		<link href="static/css/bootstrap.min.css" rel="stylesheet">
+		<style>
+			table {
+					border: 1px solid black;
+					font-family: calibri;
+					font-size:14px;
+					border-collapse: collapse;
+					width: 100%;
+				  }
+
+			td, th {
+					border: 1px solid black;
+					text-align: left;
+					padding: 8px;
+					font-family: calibri;
+					font-size:14px;
+				   }
+
+			tr:nth-child(even) {
+					background-color: #dddddd;
+				   }
+			h3 {
+					text-align: left;
+					font-weight: normal;
+					color: #2E86C1;
+				}
+			body {
+					padding-top: 40px;
+					padding-bottom: 40px;
+					background-color: #FDFEFE;
+				}
+			.button {
+					background-color: #2E86C1;
+					border: none;	
+					color: white;
+					padding: 10px 20px;
+					text-align: center;
+					text-decoration: none;
+					display: inline-block;
+					font-size: 16px;
+					margin: 4px 2px;
+					cursor: pointer;
+				}
+			input[type=text]{
+					width: 30%;
+					padding: 12px 20px;
+					margin: 8px 0;
+					display: inline-block;
+					border: 1px solid #ccc;
+					border-radius: 4px;
+					box-sizing: border-box;
+				}
+			h1 {
+					text-align: left;
+					text-transform: uppercase;
+					color: #2E86C1;
+				}
+			#resolution {
+					font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+					border-collapse: collapse;
+					width: 50%;
+				}
+
+			#resolution td, #resolution th {
+					border: 1px solid #FDFEFE;
+					padding: 8px;
+				}
+
+			#resolution tr:nth-child(even){background-color: #f2f2f2;}
+
+			#resolution tr:hover {background-color: #FDFEFE;}
+
+			#resolution th {
+					padding-top: 12px;
+					padding-bottom: 12px;
+					text-align: left;
+					background-color: #2E86C1;
+					color: white;
+				}
+
+		</style>
+    </head>
+
+    <body>
+    
+		<h1>PAC2000-Automation-Through-Machine-Learning</h1>
+		</br>
+		</br>
+	
+        <form class="dataform"  role="form" action = "http://localhost:5000/result" method = "POST">
+			<p><h3> Enter Problem Summary <input type = "text" name = "Resolution" class="text_form"/></h3> </p> 
+			<input class="button" type = "submit" value = "Submit" />
+        </form>
+		
+		<br>
+		<br>
+		<table id="resolution">
+		<tr>
+		<th>Resolutions</th>
+		<th>Status</th>
+		</tr>
+		<tr>
+		<td>Ticket closed - Integrated the chargeoff and payment data records</td>
+		<td>Closed</td>
+		</tr>
+		<tr>
+		<td>Ticket closed - Validated the data records and it is no longer an issue after redesigning the project</td>
+		<td>Closed</td>
+		</tr>
+		<tr>
+		<td>Ticket Moved to Research as this is occuring once in a long time. Synced the data records for now</td>
+		<td>Open</td>
+		</tr>
+		<tr>
+		<td>Ticket closed - according to the Business Standard Procedure, synced the data of accounts</td>
+		<td>Closed</td>
+		</tr>
+		<tr>
+		<td>Ticket closed - Fixed data according to payment suspense</td>
+		<td>Closed</td>
+		</tr>
+		<tr>
+		<td>Ticket will be tracked to observe changes in account details</td>
+		<td>Open</td>
+		</tr>
+		<tr>
+		<td>Ticket closed - Software Installed as per request </td>
+		<td>Closed</td>
+		</tr>
+		<tr>
+		<td>No good fix found yet. Corrected the sequence numbers in the questionnaire for now</td>
+		<td>Open</td>
+		</tr>
+		<tr>
+		<td>Ticket Closed - Access provided accordingly</td>
+		<td>Closed</td>
+		</tr>
+		<tr>
+		<td>Ticket closed - cleared the cache and started the server.</td>
+		<td>Closed</td>
+		</tr>
+		<tr>
+		<td>Ticket Closed - Cleared cache and tomcat working directory and started the server</td>
+		<td>Closed</td>
+		</tr>
+		<tr>
+		<td>Ticket Closed - Changed the arguments in server launch configutations</td>
+		<td>Closed</td>
+		</tr>
+		<tr>
+		<td>Ticket Closed - Code Modified to avoid the processing of request during weekends and holidays</td>
+		<td>Closed</td>
+		</tr>
+		<tr>
+		<td>Ticket Closed - Code Modified to change format to previleged account</td>
+		<td>Closed</td>
+		</tr>
+		<tr>
+		<td>Ticket Closed - Code Modified to correct the letter spacing in document screen</td>
+		<td>Closed</td>
+		</tr>
+		<tr>
+		<td>Ticket Closed - Code Modified accordingly</td>
+		<td>Closed</td>
+		</tr>
+		<tr>
+		<td>Ticket closed - Fixed data according to payment suspense</td>
+		<td>Closed</td>
+		</tr>
+		<tr>
+		<td>Ticket Closed - Code Modified to stop displaying the auto comments from he application history</td>
+		<td>Closed</td>
+		</tr>
+		<tr>
+		<td>Ticket Closed - Code Modified to return the error code of the maintainance request</td>
+		<td>Closed</td>
+		</tr>
+		<tr>
+		<td>Ticket Closed - Code Modified to retain request ids even if request fails.</td>
+		<td>Closed</td>
+		</tr>
+		<tr>
+		<td>Ticket Closed - Deleted .snap file from <workspace-directory>\.metadata\.plugins\org.eclipse.core.resources</td>
+		<td>Closed</td>
+		</tr>
+		<tr>
+		<td>Ticket closed - Integrated the chargeoff and payment data records</td>
+		<td>Closed</td>
+		</tr>
+		<tr>
+		<td>Ticket Closed - Letter Added</td>
+		<td>Closed</td>
+		</tr>
+		<tr>
+		<td>Ticket Closed - Job Restarted</td>
+		<td>Closed</td>
+		</tr>
+		<tr>
+		<td>Ticket Closed - Host profile compliance verified</td>
+		<td>Closed</td>
+		</tr>
+		<tr>
+		<td>Ticket closed - Integrated the chargeoff and payment data records</td>
+		<td>Closed</td>
+		</tr>
+		<tr>
+		<td>Ticket Closed - Go to /bin subfolder of the Tomcat installation folder and execute the shutdown.bat (Windows) or shutdown.sh (Unix) script</td>
+		<td>Closed</td>
+		</tr>
+		<tr>
+		<td>Ticket Closed - Network changed to make the server available temporarily</td>
+		<td>Closed</td>
+		</tr>
+		<tr>
+		<td>Ticket Closed - Network change according to the new IP created</td>
+		<td>Closed</td>
+		</tr>
+		<tr>
+		<td>Ticket Closed - Password reset</td>
+		<td>Closed</td>
+		</tr>
+		<tr>
+		<td>Ticket Closed - moved jmx-remote key value pairs from JAVA_OPTS to CATALINA_OPTS in setenv.sh</td>
+		<td>Closed</td>
+		</tr>
+		<tr>
+		<td>Ticket Closed - Ran script to sync the data</td>
+		<td>Closed</td>
+		</tr>
+		<tr>
+		<td>Ticket Closed - Removed the false exception</td>
+		<td>Closed</td>
+		</tr>
+		<tr>
+		<td>Ticket Closed - Security Changed for compliance</td>
+		<td>Closed</td>
+		</tr>
+		<tr>
+		<td>Ticket Closed - Reconfigured the settings</td>
+		<td>Closed</td>
+		</tr>
+		<tr>
+		<td>Ticket Closed - Ran script to sync the data</td>
+		<td>Closed</td>
+		</tr>
+		<tr>
+		<td>Ticket Closed - Removed the server and added it back</td>
+		<td>Closed</td>
+		</tr>
+		<tr>
+		<td>Ticket Closed - Removed duplicate <context> tags from server.xml</td>
+		<td>Closed</td>
+		</tr>
+		<tr>
+		<td>Ticket closed - Validated the data records and it is no longer an issue after redesigning the project</td>
+		<td>Closed</td>
+		</tr>
+		<tr>
+		<td>Ticket closed - Software Installed as per request </td>
+		<td>Closed</td>
+		</tr>
+		<tr>
+		<td>Ticket Closed -account unlocked</td>
+		<td>Closed</td>
+		</tr>
+		<tr>
+		<td>Ticket Closed - Synced the data to have the same timestamp</td>
+		<td>Closed</td>
+		</tr>
+		<tr>
+		<td>Ticket Closed - Server rebooted and there is no longer an issue</td>
+		<td>Closed</td>
+		</tr>
+		</table>
+		
+    </body>
+</html>
